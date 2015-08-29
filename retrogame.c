@@ -113,21 +113,21 @@ struct {
 	// (using HDMI or composite instead), as with our original
 	// retro gaming guide.
 	// Input   Output (from /usr/include/linux/input.h)
-	{  6,     KEY_UP       },
-	{  13,     KEY_DOWN     },
-	{  29,     KEY_LEFT     },   // Joystick (4 pins)
-	{  26,     KEY_RIGHT    },
+	{  6    , KEY_UP    } , 
+	{  13   , KEY_DOWN  } ,
+	{  19   , KEY_LEFT  } ,
+	{  26   , KEY_RIGHT } ,
   // kicks
-  { 21, KEY_Z },
-  { 20, KEY_X },
-  { 16, KEY_C },
-  // punches
-  { 17, KEY_A },
-  { 27, KEY_S },
-  { 22, KEY_D },
-  // insert coin
-  { 3, KEY_5 },
-  { 5, KEY_ESC },
+  { 21    , KEY_Z     } ,
+  { 20    , KEY_X     } ,
+  { 16    , KEY_C     } ,
+  // punch
+  { 17    , KEY_A     } ,
+  { 27    , KEY_S     } ,
+  { 22    , KEY_D     } ,
+  // misc
+  { 2     , KEY_ENTER } ,
+  { 3     , KEY_ESC   } ,
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
 // A "Vulcan nerve pinch" (holding down a specific button combination
